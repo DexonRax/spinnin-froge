@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c56m1jt41mmos"]
+
+[ext_resource type="Script" path="res://Froge.gd" id="1_5r0tx"]
+[ext_resource type="Texture2D" uid="uid://dgno80jppoc8c" path="res://froge_spritesheet_90.png" id="2_t7s0o"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(288, 181)
+script = ExtResource("1_5r0tx")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_t7s0o")
+hframes = 24
